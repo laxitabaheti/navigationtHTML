@@ -1,0 +1,125 @@
+body {
+  font-family: "Noticia Text", serif;
+  color: black;
+}
+
+.display-main-page {
+  font-family: "Noticia Text", serif;
+  color: snow;
+  display: flex;
+  background-color: (179, 197, 236, 0.486);
+}
+
+.posts {
+  background-color: rgba(179, 197, 236, 0.486);
+  padding: 20px;
+  margin: 1px 1px 0% 0%;
+  border: 1px solid white;
+}
+
+.title {
+  background-color: rgb(141, 114, 184);
+  padding: 10px;
+  font-size: 12px;
+  margin: 2px 2px 0% 0%;
+}
+
+.body {
+  background-color: rgb(139, 223, 183);
+  padding: 10px;
+  font-size: 10px;
+  margin: 2px 2px 0% 0%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 5px 2px rgb(175, 174, 174);
+}
+
+.comments {
+  border: 1px solid white;
+  background-color: rgba(179, 197, 236, 0.486);
+  padding: 1%;
+  margin: 1px 1px 0% 0%;
+}
+
+.name {
+  background-color: rgb(141, 114, 184);
+  padding: 10px;
+  font-size: 12px;
+  margin: 2px 2px 0% 0%;
+}
+
+.comment-card {
+  /* background-color: rgb(237, 238, 188); */
+  padding: 5px;
+  font-size: 10px;
+  margin-bottom: 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.comment-body {
+  background-color: rgb(139, 223, 183);
+  padding: 10px;
+  font-size: 10px;
+  margin: 2px 2px 0% 0%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.picture-card {
+  height: 310px;
+  width: 310px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+}
+
+.pictures {
+  background-color: rgba(53, 184, 123, 0.486);
+  padding: 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.photos {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+.top_header {
+  text-align: right;
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgb(171, 117, 216);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  color: whitesmoke;
+  display: block;
+  padding: 15px;
+
+  font-size: 35px;
+}
+li a:hover {
+  color: blueviolet;
+  background-color: white;
+}
