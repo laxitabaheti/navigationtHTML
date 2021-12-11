@@ -8,6 +8,6 @@ function updateImages(data) {
   });
   document.getElementById("picture").innerHTML = pictureName;
 }
-fetch(`https://jsonplaceholder.typicode.com/photos`)
+fetch(`https://jsonplaceholder.typicode.com/photos/?_limit=10`)
   .then((response) => response.json())
   .then((data) => updateImages(data));

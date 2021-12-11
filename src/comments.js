@@ -8,6 +8,6 @@ function updateComments(data) {
   document.getElementById("comment").innerHTML = commentName;
 }
 
-fetch(`https://jsonplaceholder.typicode.com/comments`)
+fetch(`https://jsonplaceholder.typicode.com/comments/?_limit=10`)
   .then((response) => response.json())
   .then((data) => updateComments(data));

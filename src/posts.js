@@ -10,6 +10,6 @@ function updatePosts(data) {
   document.getElementById("title").innerHTML = titleName;
 }
 
-fetch(`https://jsonplaceholder.typicode.com/posts`)
+fetch(`https://jsonplaceholder.typicode.com/posts/?_limit=10`)
   .then((response) => response.json())
   .then((data) => updatePosts(data));
